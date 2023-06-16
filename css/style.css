@@ -1,0 +1,171 @@
+.container {
+    outline: red;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+.header {
+    display: flex;
+    padding-top: 25;
+}
+
+.menu-list {
+    display: flex;
+    gap: 25px;
+}
+
+
+.section-title {
+    font-family: 'Roboto Slab';
+}
+
+.section-img {
+    height: 400px;
+    width: 500px;
+    padding-top: 25px;
+}
+
+.logo {
+    padding-top: 15px;
+    margin-right: 15px;
+}
+
+
+
+.header-flex {
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+.menu-link {
+    display: block;
+
+}
+
+#toggle {
+    display: none;
+}
+
+#toggle:checked~nav {
+    top: 80px;
+    opacity: 1;
+}
+
+.toggle_btn {
+    display: none;
+}
+
+.toggle_btn span {
+    display: block;
+    height: 2px;
+    width: 30px;
+    background: #95E1D3;
+    position: absolute;
+    top: calc(50% - 1px);
+}
+
+.toggle_btn span::before {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 30px;
+    background: #95E1D3;
+    position: absolute;
+    top: -8px;
+}
+
+.toggle_btn span::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 30px;
+    background: #95E1D3;
+    position: absolute;
+    top: 8px;
+}
+
+.menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+}
+
+.menu-link:hover {
+    color: #b8999f;
+    border-bottom: 3px solid #b8999f;
+}
+
+@media (max-width: 768px) {
+    .toggle_btn {
+        display: block;
+        width: 30px;
+        height: 25px;
+        position: relative;
+    }
+
+    nav {
+        position: absolute;
+        width: 100%;
+        top: -100%;
+        opacity: 0;
+        left: 0;
+        background: #fff;
+        box-shadow: 0 16px 15px #888;
+        padding-bottom: 30px;
+        transition: top .3s, opacity .3s;
+    }
+
+    .menu-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.section-list {
+    margin-top: 50px;
+
+}
+
+
+
+.card {
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.card.flex-start-aligned img {
+    align-self: flex-start;
+}
+
+.section-text {
+    font-family: 'Playfair Display';
+    width: 400px;
+    font-size: 23px;
+    line-height: 1.23;
+
+}
+
+.section-list-one {
+    padding-top: 25px;
+
+}
+
+.path-2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
