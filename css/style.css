@@ -29,11 +29,14 @@
     padding-top: 25px;
 }
 
-.logo {
-    padding-top: 15px;
-    margin-right: 15px;
-}
+.logo{
+    margin-right: 60px;
+    display: flex;
+    font-size: 60px;
+    display: flex;
+    font-family: 'Tangerine', cursive;
 
+}
 
 
 .header-flex {
@@ -44,10 +47,18 @@
 }
 
 
-.menu-link {
-    display: block;
-
+.menu-link{
+    font-size: 26px;
+    color: #7e575d;
+    font-family: 'Pacifico', cursive;
 }
+
+.menu-link{
+    font-size: 26px;
+    color: #7e575d;
+    font-family: 'Pacifico', cursive;
+}
+
 
 #toggle {
     display: none;
