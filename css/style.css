@@ -23,6 +23,8 @@
 
 .section-title {
     font-family: 'Roboto Slab';
+    display: flex;
+    justify-content: center;
 }
 
 .section-img {
@@ -235,3 +237,45 @@
     height: 145px;
     width: 192px;
 }
+
+.paragraph{
+    width: 600px;
+}
+
+
+.section-list-one {
+    padding-top: 25px;
+
+}
+
+.path-2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.section-one .card {
+    display: flex;
+    gap: 10px;
+    
+  }
+
+.section-content {
+    flex: 1;
+}
+
+.section-img {
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.section-one .card.flex-start-aligned img {
+    align-self: flex-start;
+    
+  }
+
+  .section-one .section-content {
+    flex: 1;
+    
+  }
