@@ -260,11 +260,20 @@
     font-family: 'Montserrat';
     font-size: 14px;
     line-height: 17px;
-    padding-bottom: 10px;
-    transition: all 0.3s;
+    display: flex;
+    background: #cdc6ce;
+
 }
 
 .section-one{
     width: 100%;
     text-align: center;
+}
+
+.footer{
+    display: flex;
+    padding-top: 30px;
+    background: #cdc6ce;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
