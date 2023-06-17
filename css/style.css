@@ -21,6 +21,9 @@
     font-family: 'Roboto Slab';
     display: flex;
     justify-content: center;
+    display: flex;
+    padding-top: 25px;
+    margin-bottom: 25px;
 }
 
 .section-img {
@@ -199,7 +202,6 @@
 .footer{
     display: flex;
     padding-top: 30px;
-    background: #cdc6ce;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -207,8 +209,6 @@
 
 .section-two{
     height: 700px;
-    width: 1010px;
-    
 }
 
 .item1{
@@ -239,6 +239,10 @@
 
 .paragraph{
     width: 600px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 
@@ -272,3 +276,29 @@
     flex: 1;
     
   }
+
+.path-1{
+    display: flex;
+    justify-content: center;
+}
+
+.text-price{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 10px;
+    transition: all 0.3s; 
+}
+
+.section-five{
+    padding-bottom: 25px    ;
+}
+
+.container-two{
+    background: #808080;
+}
+
+.img{
+    padding: 50px;
+}
