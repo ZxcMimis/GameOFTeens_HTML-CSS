@@ -10,10 +10,15 @@
 
 }
 
-.header {
-    display: flex;
-    padding-top: 25;
+*{
+    text-decoration: none;
+    box-sizing: border-box;
 }
+
+.header{
+    width: 100%;
+}
+
 
 .menu-list {
     display: flex;
@@ -31,23 +36,22 @@
     padding-top: 25px;
 }
 
-.logo {
+.logo{
     padding-top: 15px;
-    margin-right: 15px;
+    padding-bottom: 15px;
 }
 
 
 
-.header-flex {
-    display: flex;
+.header-flex{
     align-items: center;
-
-
+    display: flex;
+    justify-content: space-between;
 }
 
 
 .menu-link {
-    display: block;
+    text-align: right;
 
 }
 
@@ -164,8 +168,17 @@
 
 }
 
-.path-2 {
+.pathc-2 {
     display: flex;
     justify-content: center;
     padding-top: 20px;
+}
+
+.menu-list {
+    display: flex;
+    gap: 55px;
+    font-family: 'Montserrat';
+    margin-right: 40px;
+    text-decoration: none;
+    list-style: none;
 }
