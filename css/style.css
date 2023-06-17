@@ -44,6 +44,7 @@
 .logo{
     margin-left: 40px;
     font-size: 40px;
+    display: flex;
 }
 
 
@@ -276,4 +277,37 @@
     background: #cdc6ce;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+
+.section-two{
+    height: 700px;
+    width: 1010px;
+    
+}
+
+.item1{
+    height: 145px;
+    width: 192px;
+}
+
+.item2{
+    height: 145px;
+    width: 192px;
+}
+
+.item3{
+    height: 145px;
+    width: 192px;
+    
+}
+
+.item4{
+    height: 145px;
+    width: 192px;
+}
+
+.item5{
+    height: 145px;
+    width: 192px;
 }
